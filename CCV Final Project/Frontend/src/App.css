@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 0 0 0 2rem;
+}
+
+.header {
+  background: #66ff66;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  padding: 0 1rem;
+  margin: 1rem 0.3rem;
+  background-color: #00cc00;
+  border: 1px solid #00cc00;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.header-logo {
+  margin: 1rem 0 0 2rem;
+  align-items: left;
+
+}
+
+.HomeMainLogo {
+  margin: 3rem 0 0 0;
+}
+
+.HomeBody {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.HomeBody .info {
+  margin: 0 0 0 2rem;
+}
+
+.profiles {
+  margin: 4rem 0 3rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.profiles .odd {
+  margin: 0 4rem 0 0;
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+}
+
+.profiles .even {
+  margin: 0 0 0 4rem;
+  order: 2;
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+}
+
+.LoginPage {
+  padding: 2rem 0 0 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('./images/Login/background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  width: 75vw;
+}
+
+.OrgEditCss {
+  padding: 2rem 0 0 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('./images/Login/background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  width: 75vw;
+}
+
+.SignUporg {
+  padding: 2rem 0 0 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('./images/Login/background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 130vh;
+  width: 75vw;
+}
+
+.ForgotPasswordCSS {
+  padding: 2rem 0 0 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('./images/Login/background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  width: 75vw;
+}
+
+.NewVeficationCSS {
+  padding: 2rem 0 0 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('./images/Login/background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 115vh;
+  width: 75vw;
+}
+
+.buttonset {
+  background: linear-gradient(to right, #14163c 0%, #03217d 79%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 65%;
+  height: 3rem;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 2rem 0.5rem 1rem 0;
+}
+
+.buttonSetCss {
+  background: linear-gradient(to right, #14163c 0%, #03217d 79%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 65%;
+  height: 3rem;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 0 0.5rem 1rem 0;
+}
+
+.formSignUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonDashboard {
+  border-radius: 15%;
+  padding: 0.7rem 2rem;
+  margin: 2rem;
+  background-color: #FAAFBA;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.AdminDashBoardCss div {
+
+  padding: 1rem 2rem;
+  margin: 2rem 2rem;
+  background-color: #894116;
+  color: black;
+  text-decoration: none;
+}

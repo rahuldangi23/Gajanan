@@ -1,0 +1,36 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8093/eureka
+      
+server:
+  port: 8092
+
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+       - id: admin-service
+         uri: lb://admin-service
+         predicates:
+         - Path=/admin/**
+       - id : organisation-service
+         uri: lb://organisation-service
+         predicates:
+         -  Path=/organisation/**
+       - id : payment-service
+         uri: lb://payment-service
+         predicates:
+         -  Path=/payment/**
+       - id : student-service
+         uri: lb://student-service
+         predicates:
+         -  Path=/student/**
+#         filters:
+#         - name: Requestsize
+#           args:
+#            Maxsize: 5000000
+  main:
+    web-application-type: reactive
